@@ -1,6 +1,13 @@
 Changelog
 =========
 
+1.3.2
+-----
+
+Bugfixes:
+* Fixed issue where datepicker would search for window even if it is scoped in webpack
+* Removed old jQuery copy from repository
+
 1.3.0
 -----
 
