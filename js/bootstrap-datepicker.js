@@ -22,7 +22,7 @@
 
 (function($, undefined){
 
-	var $window = $(window);
+	var $window = $(globalThis);
 
 	function UTCDate(){
 		return new Date(Date.UTC.apply(Date, arguments));
